@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 body {
@@ -36,7 +37,7 @@ header nav {
 
 header nav ul li {
     display: inline;
-    }
+  }
 
 /* adjusts the other <a> elements*/
 header nav ul li a {
@@ -51,4 +52,28 @@ header h1 {
     color: #fce138;
     margin: 0;
     display: inline;
+  }
+
+/* footer content */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+footer a {
+    color: #024e76;
+  }
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
   }
